@@ -1,11 +1,4 @@
 # encoding: utf-8
-# cython: cdivision=True
-# cython: boundscheck=False
-# cython: wraparound=False
-#
-# Author: Corey Lynch <coreylynch9@gmail.com>
-#
-# License: BSD Style.
 
 import numpy as np
 import sys
