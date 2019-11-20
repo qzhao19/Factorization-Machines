@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.model_selection import train_test_split
 import random
-from pyfm_fast import FM_fast, CSRDataset
+from fm_fast import FM_fast, CSRDataset
 
 LEARNING_RATE_TYPES = {"optimal": 0, "invscaling": 1, "constant": 2}
 TASKS = {"regression": 0, "classification" : 1}
